@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="defaultMoreOrLessTextStyle">
+        <item name="moreText">more</item>
+        <item name="lessText">less</item>
+        <item name="ellipsisText">...</item>
+        <item name="lessLines">3</item>
+        <item name="startMore">false</item>
+    </style>
+
+</resources>

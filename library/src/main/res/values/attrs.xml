@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MoreOrLessText">
+        <attr name="moreText" format="string"/>
+        <attr name="moreTextColour" format="color"/>
+        <attr name="lessText" format="string"/>
+        <attr name="lessTextColour" format="color"/>
+        <attr name="ellipsisText" format="string"/>
+        <attr name="lessLines" format="integer"/>
+        <attr name="startMore" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="MoreOrLessTextTheme">
+        <attr name="moreOrLessTextStyle" format="reference"/>
+    </declare-styleable>
+
+</resources>
