@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'bintray-release'
 
 android {
     compileSdkVersion 25
@@ -19,6 +20,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
+
+publish {
+    groupId = 'com.beginner2winner'
+    artifactId = 'moreorlesstext'
+    publishVersion = '0.0.1'
+    desc = 'TextView replacement for expand/collapse and more/less clickable texts'
+    licences = ['Apache-2.0']
+    uploadName = 'MoreOrLessText'
+    website = 'https://github.com/beginner2winner/MoreOrLessText'
+    repoName = 'moreorlesstext'
 }
 
 dependencies {

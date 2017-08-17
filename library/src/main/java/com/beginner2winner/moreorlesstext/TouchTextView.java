@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 /**
  * From
- *   <link>https://stackoverflow.com/questions/20245862/make-ellipsized-a-textview-which-has-linkmovementmethod</link>
+ *   https://stackoverflow.com/questions/20245862/make-ellipsized-a-textview-which-has-linkmovementmethod
  *
  * Replaces
  *   TextView.setMovementMethod(LinkMovementMethod.getInstance());
